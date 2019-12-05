@@ -119,11 +119,12 @@ class EachTab extends StatelessWidget {
             fit: StackFit.passthrough,
             overflow: Overflow.visible,
             children: <Widget>[
-              Positioned(right: 4, top: 4, child: _buildBadge()),
+
               Container(
                 width: width,
                 child: label,
               ),
+              Positioned(right: 2, top: 2, child: _buildBadge()),
             ],
           ),
           widthFactor: 1.0,

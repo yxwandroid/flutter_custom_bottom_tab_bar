@@ -57,8 +57,8 @@ class EntryState extends State<Entry> with SingleTickerProviderStateMixin {
               tabs: <Widget>[
                 EachTab(
                     width: 70,
-                    badgeNo: '12',
-                    badgeColor: Colors.red,
+                    badgeNo: '100',
+                    badgeColor: Colors.black,
                     height: 40,
                     padding: EdgeInsets.all(0),
                     icon: _selectedIndex == 0
