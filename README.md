@@ -5,7 +5,7 @@ bottom_tab_bar是通过改变state来控制每一个tab的点击的点击事件�
 
 本文的具体的用法参考了，顶部tab的切换来做的，比较快
 
-![flutter_custom_bottom_tab_bar](/screenshot.png)
+![flutter_custom_bottom_tab_bar](images/screenshot.png)
 自定义底部导航tab
 
 #### 官方的tab导航，tabbar无法改变宽高，因此无法自定义
@@ -13,7 +13,7 @@ bottom_tab_bar是通过改变state来控制每一个tab的点击的点击事件�
 ## TabContainer
 ```
  * 自定义的TabBar
- * 这里是自定义的，实现了PreferredSizeWidget，因为在AppBar的bottom属性里，只支持PreferredSizeWidget这样的widget
+ * 这里是自定义的，实现了Preferr![](images/b576a1a7.png)edSizeWidget，因为在AppBar的bottom属性里，只支持PreferredSizeWidget这样的widget
 同时是此控件还能设置padding
 
 ```
@@ -225,3 +225,10 @@ class EntryState extends State<Entry> with SingleTickerProviderStateMixin {
 
 
 ```
+
+
+
+### 修复bug   
+
+    
+      修复未读消息被遮盖的问

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../../rewrite/super_tooltip.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_custom_bottom_tab_bar/tabbar.dart';
 import 'package:flutter_custom_bottom_tab_bar/eachtab.dart';
+import 'package:jinritoutiao/rewrite/super_tooltip.dart';
 
 class Home extends StatefulWidget {
   @override

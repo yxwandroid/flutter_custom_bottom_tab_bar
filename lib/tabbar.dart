@@ -1,4 +1,4 @@
-// Copyright 2018 刘成. All rights reserved.
+
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
